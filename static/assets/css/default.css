@@ -1,0 +1,127 @@
+.default_vcx_player{
+	width:100%;
+	height:100%;
+	position:relative;
+	background-color:black;
+	overflow:hidden;
+}
+.default_vcx_player_loader{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+.default_vcx_player_screen_saver{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index: 1;
+}
+.default_vcx_stream{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+.default_vcx_bar{
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+.default_vcx_subbar_bottom{
+	width:100%;
+	height:15%;
+	max-height:33px;
+	color:#aaa;
+	position:absolute;
+	bottom:0;
+	background-repeat: repeat-x;
+    background-image: url('../bar_back.png');
+    -webkit-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+	transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+	-moz-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+	background-position: bottom;
+    padding-top: 50px;
+    z-index: 2;
+    background-position: bottom;
+}
+.default_vcx_subbar_top{
+	width:100%;
+	height:15%;
+	max-height:30px;
+	color:#aaa;
+	position:absolute;
+	top:0;
+	background-repeat: repeat-x;
+    background-image: url('../bar_back.png');
+	transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+    -webkit-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+	-moz-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+	background-position: top !important;
+    padding-bottom: 50px;
+    z-index: 2;
+    background-position: bottom;
+}
+.default_vcx_subbar_left{
+	width:15%;
+	height:100%;
+	max-width:30px;
+	color:#aaa;
+	position:absolute;
+	left:0;
+	background-repeat: repeat-x;
+    background-image: url('../bar_back.png');
+	transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+    -webkit-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+	-moz-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+	background-position: bottom;
+}
+.default_vcx_subbar_right{
+	width:15%;
+	height:100%;
+	max-width:30px;
+	color:#aaa;
+	position:absolute;
+	right:0;
+	/*background:-webkit-linear-gradient(rgba(131,131,131,0.62),rgba(77,77,77,0.62))*/
+	background-repeat: repeat-x;
+    background-image: url('../bar_back.png');
+	transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+    -webkit-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+	-moz-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+	background-position: bottom;
+}
+.default_icon{
+	margin:7px;
+	max-width:30px;
+	cursor:pointer
+}
+.default_icon_record{
+	margin:7px;
+	max-width:30px;
+	color:#f00;
+	cursor:pointer
+}
+.default_icon_volume{
+	margin:7px;
+	max-width:30px;
+	cursor:pointer
+}
+.default_brand_logo{
+	max-width: 30px;
+	max-height: 30px;
+	cursor: pointer;
+	position: absolute;
+	right: 0px;
+	margin: 5px;
+}
+.default_theater_view{
+	width: 100% !important;
+    height: 80% !important;
+}
+.default_full_view{
+	width: 100% !important;
+    height: 100% !important;
+    top: 0px;
+	left: 0px;
+    position: fixed !important;    
+	z-index : 3;
+}

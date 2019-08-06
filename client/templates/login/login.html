@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Page</title>
+    <link rel="shortcut icon" type="image/png" href="{% static 'img/enablex.png' %}" />
+    <link rel="stylesheet" href="{% static 'css/jquery.toast.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    <script type="text/javascript">
+        var csrftoken = '{{ csrf_token }}';
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <section id="content">
+            <div class="loading">Loading....</div>
+            <div class="login_join_div" style="display: block;padding-bottom: 25px;">
+                <form action="" id="login_form">
+                    <h1><img src="{% static 'img/logo.png' %}" style="max-width:140px;"></h1>
+                    <div>
+                        <input type="text" placeholder="Enter Name" id="nameText" name="nameText">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Enter Room ID" id="roomName" name="roomName">
+                    </div>
+                    <div class="row col-md-12" style="margin-top: 10px;text-align: left;margin-left: 9px;font-size:13px">
+                        <input type="checkbox" name="agree" style="height: 15px;width:15px;" checked>
+                        <label>I agree to <a target="_blank" href="https://www.enablex.io/legals/tou/">Terms of Use</a> and
+                            <a target="_blank" href="https://www.enablex.io/legals/privacy-policy/">Privacy Policy</a>
+                        </label>
+
+                    </div>
+                    <div class="row col-md-12" style="margin-top: 20px;">
+
+                        <div class="col-md-6" style="">
+                            <input type="submit" value="Join" class="login_buttons" id="joinRoom">
+                        </div>
+                        <div id="create_room_div" class="col-md-12" style="margin-top: 10px;">
+                            <span style="font-size: 12px;color: #777;margin-top: 32px;">Don't have a Room ID? <a href="javascript:void(0)" id="create_room" class="">Create here</a></span>
+                        </div>
+                    </div>
+                    <span id="message" style="color: red"></span>
+                    <br><br><br>
+                </form><!-- form -->
+            </div>
+        </section>
+        <div class="footer" style="position: relative;margin-top:30px;text-align:center;color:white">
+            &copy; vCloudX Pte. Ltd. All Rights Reserved.
+        </div>
+        <!-- content -->
+    </div><!-- container -->
+    <script type="text/javascript" src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.toast.js' %}"></script>
+    <script src="{% static 'js/index.js' %}"></script>
+    <script src="{% static 'js/room.js' %}"></script>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+.dark-knight_vcx_player{
+	width:100%;
+	height:100%;
+	position:relative;
+	background-color:black;
+	overflow:hidden;
+	border-radius: 8px 8px 8px 8px;
+}
+.dark-knight_vcx_player_loader{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+.dark-knight_vcx_player_screen_saver{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index: 1;
+}
+.dark-knight_vcx_stream{
+	width:100%;
+	height:100%;
+	position:absolute;
+	object-fit: fill;
+}
+.vcx_toolbar_auto div {
+	display: none;
+}
+
+.vcx_toolbar_auto:hover > div {
+	display: block;
+}
+.dark-knight_vcx_bar{
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+.dark-knight_vcx_subbar_bottom{
+	width:100%;
+	height:15%;
+	max-height:30px;
+	color:#aaa;
+	font-size: 0.9em;
+	position:absolute;
+	bottom:0;
+	border-radius: 8px 8px 8px 8px;
+	text-shadow: 2px 2px 0 #222;
+	background: linear-gradient( to bottom, #444, #222 );
+	background-position: bottom;
+    z-index: 2;
+    background-position: bottom;
+}
+.dark-knight_vcx_subbar_top{
+	width:100%;
+	height:15%;
+	max-height:30px;
+	color:#aaa;
+	font-size: 0.9em;
+	position:absolute;
+	top:0;
+	border-radius: 8px 8px 8px 8px;
+	background: linear-gradient( to bottom, #444, #222 );
+	text-shadow: 2px 2px 0 #222;
+	background-position: top !important;
+    z-index: 2;
+    background-position: bottom;
+}
+.dark-knight_vcx_subbar_left{
+	width:15%;
+	height:100%;
+	max-width:30px;
+	color:#aaa;
+	font-size: 0.9em;
+	position:absolute;
+	left:0;
+	border-radius: 8px 8px 8px 8px;
+	background: linear-gradient( to bottom, #444, #222 );
+	background-position: bottom;
+}
+.dark-knight_vcx_subbar_right{
+	width:15%;
+	height:100%;
+	font-size: 0.9em;
+	max-width:30px;
+	color:#aaa;
+	position:absolute;
+	right:0;
+	border-radius: 8px 8px 8px 8px;
+	background-position: bottom;
+}
+.dark-knight_icon{
+	margin:7px;
+	max-width:30px;
+	cursor:pointer
+}
+.dark-knight_icon:hover{
+	color:#ccc;
+}
+.dark-knight_icon_record{
+	margin:7px;
+	max-width:30px;
+	color:#f00;
+	cursor:pointer
+}
+.dark-knight_icon_play{
+	font-size: 1em;
+	margin-left: 12px;
+}
+.dark-knight_brand_logo{
+	max-width: 30px;
+	max-height: 20px;
+	cursor: pointer;
+	position: absolute;
+	right: 0px;
+	margin: 5px 11px 5px 5px;
+}
+.dark-knight_theater_view{
+	margin: 0px !important;
+	width: 100% !important;
+    height: 500px !important;
+}
+.dark-knight_full_view{
+	width: 100% !important;
+    height: 100% !important;
+	margin: 0px !important;
+    top: 0px;
+	left: 0px;
+    position: fixed !important;    
+	z-index : 3;
+}

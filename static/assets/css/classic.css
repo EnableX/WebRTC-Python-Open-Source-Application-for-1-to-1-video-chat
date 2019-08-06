@@ -1,0 +1,147 @@
+.classic_vcx_player{
+	width:104%;
+	height:100%;
+	position:relative;
+	background-color:black;
+	overflow:hidden;
+}
+.classic_vcx_player_loader{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+.classic_vcx_player_screen_saver{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index: 1;
+}
+.classic_vcx_stream{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+.classic_vcx_bar{
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+.classic_vcx_subbar_bottom{
+	width:100%;
+	height: 16.5%;
+	max-height: 60px;
+	color:#000;
+	font-size: 0.9em;
+	position:absolute;
+	bottom:0;
+	background-position: bottom;
+    z-index: 2;
+    background-position: bottom;
+}
+.classic_vcx_subbar_top{
+	width:100%;
+	height: 16.5%;
+	max-height: 60px;
+	color:#aaa;
+	font-size: 0.9em;
+	position:absolute;
+	top:0;
+	background-position: top !important;
+    z-index: 2;
+    background-position: bottom;
+}
+.classic_vcx_subbar_left{
+	width:15%;
+	height:100%;
+	max-width:30px;
+	color:#aaa;
+	font-size: 0.9em;
+	position:absolute;
+	left:0;
+	border-radius: 8px 8px 8px 8px;
+	background: linear-gradient( to bottom, #444, #222 );
+	background-position: bottom;
+}
+.classic_vcx_subbar_right{
+	width:15%;
+	height:100%;
+	font-size: 0.9em;
+	max-width:30px;
+	color:#aaa;
+	position:absolute;
+	right:0;
+	border-radius: 8px 8px 8px 8px;
+	background-position: bottom;
+}
+.classic_icon{
+	margin: 1.3%;
+	max-width: 6%;
+	cursor: pointer;
+	padding: 2.1%;
+	border: 1px solid;
+	border-radius: 50%;
+}
+.classic_icon:hover{
+	color:#423c3c;
+}
+.classic_icon_record{
+	max-width:30px;
+	color:#f00;
+	cursor:pointer
+}
+.classic_icon_play{
+	font-size: 1.3em;
+	margin-left: 12px;
+}
+.classic_brand_logo{
+	max-width: 40px;
+	max-height: 40px;
+	cursor: pointer;
+	position: absolute;
+	right: 0px;
+	margin: 3px 3px 5px 5px;
+}
+.classic_theater_view{
+	margin: 0px !important;
+	width: 100% !important;
+    height: 80% !important;
+}
+.classic_theater_view i {
+	padding: 14px;
+	margin: 0.5%;
+}
+.classic_theater_view .vcx_subbar{
+	height: 27%;
+	max-height: 60px;
+}
+.classic_theater_view .classic_brand_logo {
+	max-width: 50px;
+	max-height: 50px;
+	height: 45px;
+	width: 45px;
+	margin: 7px 11px 5px 5px;
+}
+.classic_full_view{
+	width: 100% !important;
+    height: 100% !important;
+	margin: 0px !important;
+    top: 0px;
+	left: 0px;
+    position: fixed !important;    
+	z-index : 3;
+}
+.classic_full_view i {
+	padding: 17px;
+	margin: 0.5%;
+}
+.classic_full_view .vcx_subbar {
+	height: 23%;
+	max-height: 70px;
+}
+.classic_full_view .classic_brand_logo {
+	max-width: 50px;
+	max-height: 50px;
+	height: 50px;
+	width: 50px;
+	margin: 8px 11px 5px 5px;
+}
