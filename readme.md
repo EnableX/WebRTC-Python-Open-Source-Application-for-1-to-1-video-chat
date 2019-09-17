@@ -26,7 +26,7 @@ Visit Demo Zone (https://portal.enablex.io/demo-zone/) to request a Guided Demo 
 * Register with EnableX [https://www.enablex.io] 
 * Create your Application
 * Get your App ID and App Key delivered to your Email
-* Clone or download this Repository [https://github.com/EnableX/Sample-Python-Web-App-1to1-RTC.git] & follow the steps further 
+* Clone or download this Repository [https://github.com/EnableX/WebRTC-Python-Open-Source-Application-for-1-to-1-video-chat.git] & follow the steps further 
 * You can copy the app into any sub-directory of hosted Website on Python
 
 #### 3.1.2 SSL Certificates
