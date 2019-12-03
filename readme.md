@@ -63,15 +63,16 @@ ENABLEX_APP_KEY = "YOUR_APP_KEY"
 ## 4 Server API
 
 EnableX Server API is a Rest API service meant to be called from Partners' Application Server to provision video enabled 
-meeting rooms. API Access is given to each Application through the assigned App ID and App Key. So, the App ID and App Key are to be used as Username and Password respectively to pass as HTTP Basic Authentication header to access Server API.
-
-For this application, the following Server API calls are used:
-* https://api.enablex.io/v1/rooms - To get list of Rooms
-* https://api.enablex.io/v1/rooms/:roomId - To get information of the given Room
-* https://api.enablex.io/v1/rooms/:roomId/tokens - To create Token for the given Room
+meeting rooms. API Access is given to each Application through the assigned App ID and App Key. So, the App ID and App Key 
+are to be used as Username and Password respectively to pass as HTTP Basic Authentication header to access Server API.
+ 
+For this application, the following Server API calls are used: 
+* https://developer.enablex.io/latest/server-api/rooms-route/#get-rooms - To get list of Rooms
+* https://developer.enablex.io/latest/server-api/rooms-route/#get-room-info - To get information of the given Room
+* https://developer.enablex.io/latest/server-api/rooms-route/#create-token - To create Token for the given Room
 
 To know more about Server API, go to:
-https://developer.enablex.io/api/server-api/
+https://developer.enablex.io/latest/server-api/
 
 
 
@@ -80,4 +81,4 @@ https://developer.enablex.io/api/server-api/
 Client End Point Application uses Web Toolkit EnxRtc.js to communicate with EnableX Servers to initiate and manage RTC Communications.  
 
 To know more about Client API, go to:
-https://developer.enablex.io/api/client-api/
+https://developer.enablex.io/latest/client-api/
