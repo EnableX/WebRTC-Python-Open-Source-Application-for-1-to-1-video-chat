@@ -20,7 +20,7 @@ payload = {
     'owner_ref': random_name,
     'settings': {
         'description': '',
-        'quality': 'HD',
+        'quality': 'SD',
         'mode': 'group',
         'participants': '2',
         'duration': '60',
