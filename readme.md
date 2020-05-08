@@ -46,7 +46,7 @@ As you have Certificate or created a Self-Signed Certificate, create a directory
 Before you you try accessing the /client folder using Browser, configure the API Service by editing main app `settings.py` file to meet your requirement:
 
 ```python
-ENABLEX_API_URL = "https://api.vcloudx.com/v1"
+ENABLEX_API_URL = "https://api.enablex.io/v1"
 ENABLEX_APP_ID = "YOUR_APP_ID"
 ENABLEX_APP_KEY = "YOUR_APP_KEY"
 ```
