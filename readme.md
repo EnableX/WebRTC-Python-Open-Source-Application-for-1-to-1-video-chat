@@ -23,7 +23,7 @@ Sign up for a free trial https://portal.enablex.io/cpaas/trial-sign-up/ or try o
 
 #### 3.1.1 App Id and App Key
 
-* Register with EnableX [https://www.enablex.io] 
+* Register with EnableX [https://portal.enablex.io/cpaas/trial-sign-up] 
 * Create your Application
 * Get your App ID and App Key delivered to your Email
 * Clone or download this Repository [https://github.com/EnableX/WebRTC-Python-Open-Source-Application-for-1-to-1-video-chat.git] & follow the steps further 
