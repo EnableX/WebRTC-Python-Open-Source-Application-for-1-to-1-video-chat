@@ -1,10 +1,12 @@
-# 1to1 RTC: A Sample Web App using Python (Django Framework) and EnableX Web Toolkit
+# Building a 1-to-1 Real-Time Communication Web App with Django (Python Framework) and EnableX Web Toolkit
 
-The Sample Web App demonstrates the use of APIs for EnableX platform to develop basic 1to1 RTC (Real Time Communication) Application. The main motivation behind this application is to demonstrate usage of APIs and allow developers to ramp up on app by hosting on their own devices instead of directly using servers.
+1-to-1 RTC Web App: Python (Django Framework) and EnableX Web Toolkit 
 
-RTC Applications hosted on EnableX platform run natively on supported set of web browsers without any additional plugin downloads.
+Explore a Sample Web App demonstrating the utilization of EnableX platform APIs for crafting fundamental 1to1 RTC (Real Time Communication) Applications. This application is designed to showcase API usage, allowing developers to expedite app development by hosting it on their own devices, eliminating the need for external servers. 
 
-This basic 1to1 RTC Application is generated using HTML, CSS, Bootstrap, JavaScript, jQuery, Python and EnxRtc (The EnableX Web Toolkit).
+RTC Applications hosted on the EnableX platform seamlessly operate on supported web browsers, requiring no additional plugin downloads. 
+
+This basic 1to1 RTC Application is constructed using HTML, CSS, Bootstrap, JavaScript, jQuery, Python, and EnxRtc (EnableX Web Toolkit) 
 
 >The details of the supported set of web browsers can be found here:
 https://developer.enablex.io/video/browser-compatibility-of-enablex-video/
